@@ -5,16 +5,14 @@ type Props = {
   color?: string;
 };
 
-const HelloComponent: VFC<Props> = ({ color = 'red' }) => {
+export const HelloComponent1: VFC<Props> = ({ color = 'red' }) => {
   return (
     <div
       style={{
         color: color,
       }}
     >
-      Hello
+      Hello1
     </div>
   );
 };
-
-export default HelloComponent;
