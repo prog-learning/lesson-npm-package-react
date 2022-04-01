@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "my-package": "./my-package",
+    "my-package3": "./my-package3",
     "next": "12.1.3",
     "react": "18.0.0",
     "react-dom": "18.0.0"
