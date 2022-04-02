@@ -15,13 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    "mpkg/src/Sample/Sample.jsx",
-    "mpkg/src/Sample/Sample.jsx",
-    "mpkg/src/Sample/Sample.tss"
-  ],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
 }

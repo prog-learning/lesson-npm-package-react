@@ -6,7 +6,6 @@ type Props = {
 };
 
 const HelloComponent: VFC<Props> = ({ color = 'red' }) => {
-  // const HelloComponent = ({ color = 'red' }) => {
   return (
     <div
       style={{

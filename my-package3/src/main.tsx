@@ -1,18 +1,16 @@
 import React from 'react';
 import { VFC } from 'react';
+import 'index.css';
 
 type Props = {
-  color?: string;
+  text?: string;
 };
 
-const HelloComponent: VFC<Props> = ({ color = 'red' }) => {
+const HelloComponent: VFC<Props> = ({ text = '' }) => {
   return (
-    <div
-      style={{
-        color: color,
-      }}
-    >
-      Hello123
+    <div className='text-orang-600 font-bold'>
+      <div>Hello</div>
+      <div>{text}</div>
     </div>
   );
 };
